@@ -3,7 +3,7 @@
   "version": "0.5.7",
   "license": "AGPL-3.0-only",
   "private": true,
-  "packageManager": "bun@1.4.2",
+  "packageManager": "bun@1.4.4",
   "scripts": {
     "setup:api": "node scripts/setup-api.mjs",
     "dev:api": "bun scripts/dev-backend.mjs",
