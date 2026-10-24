@@ -10,7 +10,7 @@ ARG BASE_IMAGE=pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
 # Builder Stage: Compile React Frontend
 # ==========================================
 # Keep in lockstep with package.json packageManager (tests/test_bun_toolchain_pins.py).
-FROM oven/bun:1.4.2-alpine AS frontend-builder
+FROM oven/bun:1.4.4-alpine AS frontend-builder
 WORKDIR /app
 
 # Monorepo — bun workspace with lockfile at repo root. Copy manifests first
